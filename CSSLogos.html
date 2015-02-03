@@ -3,10 +3,11 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+  <h1>CSS Logo Demos</h1>
+  
+  <div class="display_area">
   {{> twitter}}
+  </div>
 </body>
 
 <template name="hello">
@@ -15,6 +16,22 @@
 </template>
 
 <template name="twitter">
-  <div class="twitter logo"></div>
+  <div class="twitter logo">
+    <div class="body fill"></div>
+    <div class="back-cut cut"></div>
+    <div class="lower-wing fill"></div>
+    <div class="lower-wing-cut cut"></div>
+    <div class="mid-wing fill"></div>
+    <div class="mid-wing-cut cut"></div>
+    <div class="top-wing fill"></div>
+    <div class="top-cut cut"></div>
+    <div class="lower-beak fill"></div>
+    <div class="lower-beak-cut cut"></div>
+    <div class="top-wing-cut cut"></div>
+    <div class="upper-beak fill"></div>
+    <div class="upper-beak-cut cut"></div>
+    <!-- <div class="head-cut cut"></div> -->
+    <div class="head fill"></div>
+  </div>  
 </template>
 

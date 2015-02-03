@@ -1,0 +1,160 @@
+/* CSS declarations go here */
+
+.display_area {
+}
+.logo {
+	width: 200px;
+	height: 200px;
+  overflow: hidden;
+
+  &.twitter {
+    position: relative;
+    margin: 50px;
+
+    .cut {
+      background: #FFF;
+      // background: rgba(255,255,255,0.5);
+    }
+    .fill {
+      background: #55ACEE;
+      // background: rgba(0,0,50,0.5);
+    }
+
+    &:before {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      content: ' ';
+      // background: url("../images/twitter_logo.png") no-repeat center;
+      // background-size: contain;
+      z-index: -1;
+    }
+
+    .body {
+      width: 232px;
+      height: 234px;
+      border-radius: 50%;
+      position: absolute;
+      left: -52px;
+      top: -52px;
+    }
+    .back-cut {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      position: absolute;
+      left: -82px;
+      top: -17px;
+    }
+    .lower-wing {
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      position: absolute;
+      left: 20px;
+      top: 61px;
+    }
+    .lower-wing-cut {
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      position: absolute;
+      left: -11px;
+      top: 36px;
+    }
+    .mid-wing {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      position: absolute;
+      left: 8px;
+      top: 37px;
+    }
+    .mid-wing-cut {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      position: absolute;
+      left: -12px;
+      top: 1px;
+    }
+    .top-wing {
+      width: 108px;
+      height: 90px;
+      border-radius: 50%;
+      position: absolute;
+      left: 8px;
+      top: 2px;
+    }
+    .top-wing-cut {
+      // width: 230px;
+      // height: 200px;
+      // border-radius: 50%;
+      // position: absolute;
+      // left: -6px;
+      // top: -130px;
+      width: 235px;
+      height: 235px;
+      border-radius: 50%;
+      position: absolute;
+      left: -13px;
+      top: -166px;
+    }
+    .top-cut {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      left: -80px;
+      top: -90px;
+    }
+    .lower-beak {
+      width: 113px;
+      height: 113px;
+      border-radius: 50%;
+      position: absolute;
+      left: 94px;
+      top: -46px;
+    }
+    .lower-beak-cut {
+      width: 133px;
+      height: 132px;
+      border-radius: 50%;
+      position: absolute;
+      left: 104px;
+      top: -87.5px;
+    }
+    .upper-beak {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      position: absolute;
+      left: 116px;
+      top: -30px;
+    }
+    .upper-beak-cut {
+      width: 156px;
+      height: 132px;
+      border-radius: 50%;
+      position: absolute;
+      left: 73px;
+      top: -99px;
+    }
+    .head-cut {
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      position: absolute;
+      left: 86px;
+      top: -24px;
+    }
+    .head {
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      position: absolute;
+      left: 97.5px;
+      top: 19px;
+    }
+  }
+}
